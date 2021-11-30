@@ -1,0 +1,41 @@
+<odoo>
+    <template id="place_into_bar5" inherit_id="website.snippets" name="Place into bar5">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="webdesign.s_snippet5"
+               t-thumbnail="/webdesign/static/src/img/title1.png"/>
+        </xpath>
+    </template>
+
+    <!-- Design Snippet5 -->
+    <template id="s_snippet5" name="snippet5">
+        <section class="s_snippe5">
+            <div class="s_snippet5">
+                <section class="s_banner pb96 o_colored_level pt176 s_parallax_no_overflow_hidden oe_img_bg"
+                         data-scroll-background-ratio="0" data-snippet="s_banner" data-name="Banner"
+                         style="background-image: url('/webdesign/static/src/img/pic2.png');">
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                            <div class="jumbotron rounded o_colored_level col-lg-4 offset-lg-8 pt0 pb0" data-name="Box">
+                                <p class="o_default_snippet_text">
+                                    <font style="" class="text-white">Regional in Deutschland produziert</font>
+                                </p>
+                                <h1>
+                                    <font style="color: rgb(206, 199, 13); font-size: 62px;">Fairframe</font>
+                                </h1>
+                                <p class="lead">
+                                    <font style="" class="text-white">This is a simple hero unit, a simple
+                                        jumbotron-style component for calling extra attention to featured content or
+                                        information.
+                                    </font>
+                                </p>
+                                <a href="#" class="btn btn-primary mb-2" data-original-title="" title=""
+                                   aria-describedby="tooltip968970">Mehr Informationen
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+</odoo>

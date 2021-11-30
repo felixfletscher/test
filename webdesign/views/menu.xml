@@ -1,0 +1,15 @@
+<odoo>
+    <record id="webdesign_page" model="website.page">
+        <field name="name">Design</field>
+        <field name="website_published">True</field>
+        <field name="url">/design</field>
+        <field name="view_id" ref="webdesign_page_template"/>
+    </record>
+
+    <record id="webdesign_page_link" model="website.menu">
+        <field name="name">Design</field>
+        <field name="page_id" ref="webdesign_page"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">99</field>
+    </record>
+</odoo>

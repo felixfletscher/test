@@ -1,0 +1,63 @@
+<odoo>
+    <template id="place_into_bar4" inherit_id="website.snippets" name="Place into bar4">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="webdesign.s_snippet4"
+               t-thumbnail="/webdesign/static/src/img/title1.png"/>
+        </xpath>
+    </template>
+
+    <!-- Design Snippet4 -->
+    <template id="s_snippet4" name="snippet4">
+        <section class="s_snippet4">
+            <div class="s_snippet4">
+                <section class="s_numbers pt24 pb24 o_colored_level undefined" data-snippet="s_numbers"
+                         data-name="Numbers" style="background-color: rgb(22, 24, 27) !important;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="text-center pt24 pb24 o_colored_level col-lg-3">
+                                <span class="display-4 s_number">
+                                    <p>
+                                        <font style="font-size: 18px;" class="text-o-color-4">Kostenlos einen Termin
+                                            vereinbaren.
+                                        </font>
+                                    </p>
+                                    <p>
+                                        <font style="font-size: 18px;" class="text-o-color-4">Probefahrt buchen</font>
+                                    </p>
+                                </span>
+                                <h6>&amp;nbsp;</h6>
+                            </div>
+                            <div class="col-lg-3 text-center pb24 o_colored_level pt88">
+                                <span class="display-4 s_number">
+                                    <font class="text-o-color-4" style="">1</font>
+                                </span>
+                                <h6>
+                                    <a href="/" class="btn btn-primary btn-sm">Wann?</a>
+                                    <br/>
+                                </h6>
+                            </div>
+                            <div class="col-lg-3 text-center pb24 o_colored_level pt88">
+                                <span class="display-4 s_number">
+                                    <font class="text-o-color-4" style="">2</font>
+                                </span>
+                                <h6>
+                                    <a href="/" class="btn btn-primary btn-sm">Wo?</a>
+                                    <br/>
+                                </h6>
+                            </div>
+                            <div class="col-lg-3 text-center pb24 o_colored_level pt88">
+                                <span class="display-4 s_number">
+                                    <font class="text-o-color-4" style="">3</font>
+                                </span>
+                                <h6>
+                                    <a href="/" class="btn btn-primary btn-sm">Buchen</a>
+                                    <br/>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+</odoo>
