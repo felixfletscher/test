@@ -1,0 +1,115 @@
+<odoo>
+    <template id="place_into_bar9" inherit_id="website.snippets" name="Place into bar9">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="webdesign.s_snippet9"
+               t-thumbnail="/webdesign/static/src/img/title1.png"/>
+        </xpath>
+    </template>
+
+    <!-- Design Snippet9 -->
+    <template id="s_snippet9" name="snippet9">
+        <section class="s_snippet9">
+            <div class="s_snippet9">
+                <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                    <div id="myCarousel1637309094273" class="s_carousel s_carousel_default carousel slide"
+                         data-interval="10000">
+                        <ol class="carousel-indicators o_we_no_overlay">
+                            <li data-target="#myCarousel1637309094273" data-slide-to="0" class="active"/>
+                            <li data-target="#myCarousel1637309094273" data-slide-to="1"/>
+                            <li data-target="#myCarousel1637309094273" data-slide-to="2"/>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item o_colored_level pb200 pt256 oe_img_bg active"
+                                 style="background-image: url(&quot;/webdesign/static/src/img/pic6.png&quot;);"
+                                 data-name="Slide">
+                                <div class="container">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-6 o_colored_level">
+                                            <h2>
+                                                <font style="font-size: 62px;" class="text-o-color-4">Probefahrt</font>
+                                            </h2>
+                                            <p class="lead">
+                                                <font class="text-o-color-4" style="">Mal eine Runde mit einem
+                                                    Urwahnbike drehen?
+                                                </font>
+                                            </p>
+                                            <p>
+                                                <a href="/" class="btn btn-primary o_default_snippet_text">Mehr
+                                                    Informationen
+                                                </a>
+                                                <br/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item pt96 pb96 o_colored_level oe_img_bg"
+                                 style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);"
+                                 data-name="Slide">
+                                <div class="container">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center pt48 pb40 o_colored_level">
+                                            <h2 style="font-size: 62px;" class="o_default_snippet_text">Clever Slogan
+                                            </h2>
+                                            <div class="s_hr pt8 pb24" data-snippet="s_hr" data-name="Separator">
+                                                <hr class="w-25 mx-auto"
+                                                    style="border-top-width: 1px; border-top-style: solid;"/>
+                                            </div>
+                                            <p class="lead o_default_snippet_text">Storytelling is powerful.
+                                                <br/>
+                                                It draws readers in and engages them.
+                                            </p>
+                                            <p>
+                                                <a href="/" class="btn btn-primary mb-2 o_default_snippet_text">Start
+                                                    your journey
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item pt128 pb128 o_colored_level oe_img_bg"
+                                 style="background-image: url(&quot;/web/image/website.s_carousel_default_image_3&quot;);"
+                                 data-name="Slide">
+                                <div class="container">
+                                    <div class="row content">
+                                        <div class="carousel-content col-lg-6 offset-lg-6 o_colored_level">
+                                            <h2>
+                                                <font style="font-size: 62px; background-color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text">Edit this title
+                                                </font>
+                                            </h2>
+                                            <h4>
+                                                <font style="background-color: rgb(255, 255, 255);"
+                                                      class="o_default_snippet_text">Good writing is simple, but not
+                                                    simplistic.
+                                                </font>
+                                            </h4>
+                                            <p>
+                                                <br/>
+                                            </p>
+                                            <p class="o_default_snippet_text">Good copy starts with understanding how
+                                                your product or service helps your customers. Simple words communicate
+                                                better than big words and pompous language.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay" href="#myCarousel1637309094273"
+                           data-slide="prev" role="img" aria-label="Previous" title="Previous">
+                            <span class="carousel-control-prev-icon"/>
+                            <span class="sr-only o_default_snippet_text">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay" href="#myCarousel1637309094273"
+                           data-slide="next" role="img" aria-label="Next" title="Next">
+                            <span class="carousel-control-next-icon"/>
+                            <span class="sr-only o_default_snippet_text">Next</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </template>
+</odoo>

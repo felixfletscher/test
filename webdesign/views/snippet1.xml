@@ -1,0 +1,31 @@
+<odoo>
+    <template id="place_into_bar1" inherit_id="website.snippets" name="Place into bar1">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="webdesign.s_snippet1"
+               t-thumbnail="/webdesign/static/src/img/title1.png"/>
+        </xpath>
+    </template>
+
+    <!-- Design Snippet1 -->
+    <template id="s_snippet1" name="snippet1">
+        <section class="s_snippet1">
+            <section
+                    class="s_cover bg-black-50 pt96 pb96 o_colored_level s_parallax_no_overflow_hidden o_background_video"
+                    data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover"
+                    data-bg-video-src="//www.youtube.com/embed/01MQ1ri78Hg?autoplay=1&amp;mute=1&amp;rel=0&amp;loop=1&amp;playlist=01MQ1ri78Hg&amp;controls=0&amp;fs=0&amp;modestbranding=1">
+                <div class="container s_allow_columns">
+                    <h1 style="text-align: center;">
+                        <font style="font-size: 62px; font-weight: bold;" class="o_default_snippet_text">
+                            <br/>
+                        </font>
+                    </h1>
+                    <p class="lead o_default_snippet_text" style="text-align: center;">
+                        <br/>
+                        <br/>
+                        <br/>
+                    </p>
+                </div>
+            </section>
+        </section>
+    </template>
+</odoo>
